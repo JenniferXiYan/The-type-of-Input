@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      .Inp {
+        width: 200px;
+        height: 20px;
+      }
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none !important;
+        margin: 0;
+      }
+      input[type="number"] {
+        -moz-appearance: textfield;
+      }
+      input[type="date"] {
+        -webkit-appearance: textarea;
+      }
+      input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <input class="Inp" type="number" name="input" />
+    <input class="Inp" type="date" name="input" />
+    <input class="Inp" type="checkbox" name="input" />
+    <script></script>
+  </body>
+</html>
